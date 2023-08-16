@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NexGenMart</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Merriweather:ital@0;1&family=Noto+Serif:wght@400;500;800;900&family=Roboto+Mono:wght@300;400;700&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="homepage">
+      <section id="section-1">
+        <header>
+          <nav>
+            <img
+              src="images/logo/8dadfd49e9514a4d8da99b9c65110e2d.png"
+              alt="NexGenMart"
+            />
+
+            <div class="navigation-links">
+              <ul class="links">
+                <li>
+                  <a href="#"> HOME </a>
+                  <a href="product.html">PRODUCT </a>
+                  <a href="about.html">ABOUT US </a>
+                  <a href="list.html">SELL </a>
+                  <a href="login.html">LOGIN </a>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-menu">
+              <ion-icon id="toggle-btn" name="menu-outline"></ion-icon>
+            </div>
+          </nav>
+        </header>
+        <main>
+          <h1 id="heading">
+            Unveil a World of <br />
+            Elegance and Style
+          </h1>
+          <a href="product.html"
+            >Explore Product <ion-icon name="arrow-forward-outline"></ion-icon
+          ></a>
+        </main>
+      </section>
+      <section id="section-2">
+        <h2>Get 20% Off Your First Order!</h2>
+        <div id="categories">
+          <div class="category-item">
+            <div class="img img-1"></div>
+            <div class="product-description">
+              <h3>Canon</h3>
+              <p>$100</p>
+            </div>
+            <button class="btn">Shop Now</button>
+          </div>
+          <div class="category-item">
+            <div class="img img-2"></div>
+            <div class="product-description">
+              <h3>Equata</h3>
+              <p>$8.9</p>
+            </div>
+            <button class="btn">Shop Now</button>
+          </div>
+          <div class="category-item">
+            <div class="img img-3"></div>
+            <div class="product-description">
+              <h3>Louis Vitton</h3>
+              <p>$50</p>
+            </div>
+            <button class="btn">Shop Now</button>
+          </div>
+          <div class="category-item">
+            <div class="img img-4"></div>
+            <div class="product-description">
+              <h3>Nike</h3>
+              <p>$89</p>
+            </div>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      const btn = document.getElementById("toggle-btn");
+      const links = document.querySelector("nav ul");
+      btn.addEventListener("click", () => {
+        if (links.style.display === "none") {
+          links.style.display = "block";
+          links.style.transition = "800ms";
+        } else {
+          links.style.display = "none";
+        }
+      });
+    </script>
+  </body>
+</html>

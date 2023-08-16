@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="product.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Merriweather:ital@0;1&family=Noto+Serif:wght@400;500;800;900&family=Roboto+Mono:wght@300;400;700&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <div class="products">
+      <header>
+        <div>
+          
+          <a href="index.html">
+            <img src="images/logo/8dadfd49e9514a4d8da99b9c65110e2d.png"  />
+          </a>
+        </div>
+        <div>
+
+          <input id="input" type="search" placeholder="Search Something" />
+        </div>
+        <div id="ico">
+
+          <a href="#" id="cart-icon">Cart
+            <ion-icon   name="cart-outline"></ion-icon>
+          </a>
+        </div>
+      </header>
+      <main>
+        
+        <div class="filters">
+          <h2>Filters</h2>
+          <div class="filter-option">
+            <h3>Category</h3>
+            <label>
+              <input type="checkbox" name="category" value="electronics" /> Electronics
+            </label>
+            <label>
+              <input type="checkbox" name="category" value="clothing" /> Clothing
+            </label>
+            <label>
+              <input type="checkbox" name="category" value="jewelery" /> Jewelry
+            </label>
+          </div>
+          <div class="filter-option">
+            <h3>Price Range</h3>
+            <input type="range" min="0" max="100" step="1" value="0" />
+          </div>
+          <div class="filter-option">
+            <h3>Color</h3>
+            <label>
+              <input type="checkbox" name="color" value="red" /> Red
+            </label>
+            <label>
+              <input type="checkbox" name="color" value="blue" /> Blue
+            </label>
+            <label>
+              <input type="checkbox" name="color" value="green" /> Green
+            </label>
+          </div>
+          <div class="filter-option">
+            <h3>Size</h3>
+            <label>
+              <input type="checkbox" name="size" value="small" /> Small
+            </label>
+            <label>
+              <input type="checkbox" name="size" value="medium" /> Medium
+            </label>
+            <label>
+              <input type="checkbox" name="size" value="large" /> Large
+            </label>
+          </div>
+        </div>
+        
+        
+        <div class="product-cards">
+          <div class="cards">
+            <div id="img" class="product-img"></div>
+            <h2 class="title">Fjallraven - Foldsack No. 1 Backpack</h2>
+            <div class="product-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, numquam.</div>
+            <div class="price-desc">
+              <div class="price">$12</div>
+              <div class="star-rating">
+                <p>4.5</p>
+                <ion-icon name="star-outline"></ion-icon>
+                <p class="outof">(1200)</p>
+              </div>
+            </div>
+            <div class="btn-container">
+              <div class="btn-buy">Buy Now</div>
+              <div class="btn-cart">Add To Cart</div>
+            </div>
+          </div>
+          <div class="cards">
+            <div id="img-2" class="product-img"></div>
+            <h2 class="title">Mens Casual Premium Slim Fit T-Shirts </h2>
+            <div class="product-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, numquam.</div>
+            <div class="price-desc">
+              <div class="price">$20</div>
+              <div class="star-rating">
+                <p>4.5</p>
+                <ion-icon name="star-outline"></ion-icon>
+                <p class="outof">(1200)</p>
+              </div>
+              
+            </div>
+            <div class="btn-container">
+              <div class="btn-buy">Buy Now</div>
+              <div class="btn-cart">Add To Cart</div>
+            </div>
+          </div>
+          <div class="cards">
+            <div id="img-3" class="product-img"></div>
+            <h2 class="title">Mens Cotton Jacket</h2>
+            <div class="product-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, numquam.</div>
+            <div class="price-desc">
+              <div class="price">$24</div>
+              <div class="star-rating">
+                <p>4.5</p>
+                <ion-icon name="star-outline"></ion-icon>
+                <p class="outof">(1200)</p>
+              </div>
+            </div>
+            <div class="btn-container">
+              <div class="btn-buy">Buy Now</div>
+              <div class="btn-cart">Add To Cart</div>
+            </div>
+          </div>
+          <div class="cards">
+            <div id="img-4" class="product-img"></div>
+            <h2 class="title">Mens Casual Slim Fit</h2>
+            <div class="product-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, numquam.</div>
+            <div class="price-desc">
+              <div class="price">$15.49</div>
+              <div class="star-rating">
+                <p>4.5</p>
+                <ion-icon name="star-outline"></ion-icon>
+                <p class="outof">(1200)</p>
+              </div>
+            </div>
+            <div class="btn-container">
+              <div class="btn-buy">Buy Now</div>
+              <div class="btn-cart">Add To Cart</div>
+            </div>
+          </div>
+          <div class="cards">
+            <div id="img-5" class="product-img"></div>
+            <h2 class="title">John Hardy Women's Legends Naga Gold</h2>
+            <div class="product-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, numquam.</div>
+            <div class="price-desc">
+              <div class="price">$69.5</div>
+              <div class="star-rating">
+                <p>4.5</p>
+                <ion-icon name="star-outline"></ion-icon>
+                <p class="outof">(1200)</p>
+              </div>
+            </div>
+            <div class="btn-container">
+              <div class="btn-buy">Buy Now</div>
+              <div class="btn-cart">Add To Cart</div>
+            </div>
+
+          </div>
+          <div class="cards">
+            <div id="img-6" class="product-img"></div>
+            <h2 class="title">Lock and Love Women's Removable Hooded</h2>
+            <div class="product-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, numquam.</div>
+            <div class="price-desc">
+              <div class="price">$29.95</div>
+              <div class="star-rating">
+                <p>4.5</p>
+                <ion-icon name="star-outline"></ion-icon>
+                <p class="outof">(1200)</p>
+              </div>
+            </div>
+            <div class="btn-container">
+              <div class="btn-buy">Buy Now</div>
+              <div class="btn-cart">Add To Cart</div>
+            </div>
+
+          </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+    <script>
+ 
+
+  const url="https://fakestoreapi.com/products"
+
+  const products=async function(){
+    const res=await fetch(url);
+    const data= await res.json();
+    console.log(data);
+  }
+
+  products()
+    </script>
+  </body>
+</html>

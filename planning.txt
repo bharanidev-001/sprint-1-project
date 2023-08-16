@@ -1,0 +1,21 @@
+COLOR SCHEME
+muted pastel color
+#D4A373
+#FEFAE0
+#FAEDCD
+#E9EDC9
+#CCD5AE
+
+
+FONT-FAMILY
+Heading Font (Serif): Playfair Display, Georgia, Baskerville
+Body Font (Sans-serif): Open Sans, Roboto, Lato
+
+
+Heading Message:
+
+"Discover Your Perfect Style"
+"Unveil a World of Elegance and Style"
+
+Button Text:
+"Explore Products"
